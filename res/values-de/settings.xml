@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
 
+	<string name="pref_ImportExportReset">Import/Export/Einstellungen zurücksetzen</string>
+	<string name="pref_ImportExportReset_summary">Einstellungen aus einer Sicherung oder einer URL importieren oder auf die Standardeinstellungen zurücksetzen</string>
+
+	<string name="pref_RemoteSettings">Konfiguration per URL</string>
+	<string name="pref_RemoteSettingsURL">Konfigurations URL</string>
+	<string name="pref_RemoteSettingsURL_summary">URL, von der die Einstellungen abgerufen werden sollen. Das wird in der Regel verwendet, um allen Geräten für ein bestimmtes Turnier oder eine bestimmte Liga auf einfache Weise die gleichen Einstellungen zuzuweisen.</string>
+	<string name="pref_RemoteSettingsURL_Default">Konfigurations Standard URL</string>
+	<string name="pref_RemoteSettingsURL_Default_summary">URL, von der die Einstellungen standardmäßig geladen werden. Bei dieser URL wird keine Fehlermeldung angezeigt, wenn der Ladevorgang fehlschlägt.</string>
+	<string name="pref_RemoteSettingsURL_AlwaysShowLoadErrors">Fehlermeldung immer anzeigen</string>
+	<string name="pref_RemoteSettingsURL_AlwaysShowLoadErrors_Summary">Fehlermeldung anzeigen, wenn das Laden der Einstellungen fehlschlägt, auch bei Standard URLs, die für den normalen Gebrauch in der Regel nicht erreichbar sind.</string>
+	<string name="pref_savePasswords">Password speichern</string>
+	<string name="pref_savePasswords_summary">Wenn für das Posten von Ergebnissen ins Internet ein Passwort erforderlich ist, können die Zugangsdaten zur leichteren Nutzung der App gespeichert werden.</string>
+	<string name="pref_RemoteConfig_NoSettingChanges">Anzahl der Änderungen von\n
+		%1$s</string>
+	<string name="pref_RemoteConfig_X_SettingChanged">%1$d Änderungen wurden geladen von\n
+		%2$s</string>
+
     <string name="pref_ColorTargets_Background">Hintergrund</string>
     <string name="pref_ColorTargets_Player_Button_Background">Hintergrund Spieler</string>
     <string name="pref_ColorTargets_Score_Button_Background">Hintergrund Punktestand</string>
@@ -268,6 +285,10 @@
     <string name="pref_useVibrationNotificationInTimer_summary">Vibration\n- wenn der Timer endet\n- wenn noch 15 Sekunden Pause verbleiben\n- zur Halbzeit der Aufwärmphase</string>
     <string name="pref_timerWarmup">Zeit Aufwärmphase</string>
     <string name="pref_timerWarmup_summary">Zeit für die Aufwärmphase in Sekunden.\nOffiziell: 240 Sekunden; 120 pro Seite.</string>
+    <string name="pref_timerPauseBeforeFirstGame">Zeit in Sekunden vor dem ersten Satz</string>
+    <string name="pref_timerPauseBeforeFirstGame_summary">Zeit in Sekunden vor dem ersten Satz. Offiziell 60 Sekunden</string>
+    <string name="pref_timerPauseBeforeFirstGame_values">Zeiten vor dem ersten Satz</string>
+    <string name="pref_timerPauseBeforeFirstGame_values_summary">Auswählbare Werte zwischen Beginn eines neuen Spieles bis zum Start des ersten Satzes (in der Regel 60 oder 90)</string>
     <string name="pref_timerPauseBetweenGames">Zeit Satzpausen</string>
     <string name="pref_timerPauseBetweenGames_summary">Zeit für die Satzpausen.\nOffiziell: 90 Sekunden (PSA: 120).</string>
     <string name="pref_timerPauseBetweenGames_values">Zeiten der Satzpause</string>
